@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * menu
+ *
+ * @copyright Copyright © 2020 landofcoder. All rights reserved.
+ * @author    landofcoder@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Lof_HieuStudentManage::HieuStudentManage" title="Student" module="Lof_HieuStudentManage" sortOrder="15" resource="Lof_HieuStudentManage::HieuStudentManage"/>
+        <add id="Lof_HieuStudentManage::HieuStudentManage_configuration" title="Configuration" module="Lof_HieuStudentManage" sortOrder="99" parent="Lof_HieuStudentManage::HieuStudentManage" action="adminhtml/system_config/edit/section/HieuStudentManage" resource="Lof_HieuStudentManage::HieuStudentManage_configuration"/>
+    </menu>
+</config>

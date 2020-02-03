@@ -1,0 +1,27 @@
+{
+  "name": "landofcoder/HieuStudentManage",
+  "description": "Module Student Manager",
+  "require": {
+    "php": "~7.1.0|~7.3.0"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Landofcoder",
+      "email": "landofcoder@gmail.com",
+      "homepage": "https://landofcoder.com",
+      "role": "Magento 2 Extension Provider"
+    }
+  ],
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lof\\HieuStudentManage\\": ""
+    }
+  }
+}
