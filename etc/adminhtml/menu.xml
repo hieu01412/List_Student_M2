@@ -10,7 +10,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="Lof_HieuStudentManage::HieuStudentManage" title="Student" module="Lof_HieuStudentManage" sortOrder="11" resource="Lof_HieuStudentManage::HieuStudentManage"/>
-        <add id="Lof_HieuStudentManage::post" title="All Student" module="Lof_HieuStudentManage" sortOrder="10" action="Lof_HieuStudentManage/post" resource="Lof_HieuStudentManage::post" parent="Lof_HieuStudentManage::HieuStudentManage"/>
-        <add id="Lof_HieuStudentManage::HieuStudentManage_configuration" title="Configuration" module="Lof_HieuStudentManage" sortOrder="99" parent="Lof_HieuStudentManage::HieuStudentManage" action="adminhtml/system_config/edit/section/HieuStudentManage" resource="Lof_HieuStudentManage::HieuStudentManage_configuration"/>
+        <add id="Lof_HieuStudentManage::HieuStudentManagehiu" title="All Student" module="Lof_HieuStudentManage" sortOrder="10" action="cms/student/index" resource="Lof_HieuStudentManage::post" parent="Lof_HieuStudentManage::HieuStudentManage"/>
+        <add id="Lof_HieuStudentManage::HieuStudentManage_configuration" title="Configuration" module="Lof_HieuStudentManage" sortOrder="99" parent="Lof_HieuStudentManage::HieuStudentManage" action="Lof_HieuStudentManage/test/hieu" resource="Lof_HieuStudentManage::HieuStudentManage_configuration"/>
     </menu>
 </config>
